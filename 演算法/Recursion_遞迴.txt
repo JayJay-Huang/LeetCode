@@ -1,0 +1,7 @@
+# Base case & Recursive case
+base case: 當程式不再呼叫自己之情況。
+recursive case: 呼叫自己。
+
+> recursion 需要設立 base case 去中斷程式。
+
+# Stack 堆疊

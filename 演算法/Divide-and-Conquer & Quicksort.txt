@@ -1,0 +1,4 @@
+# Divide-and-Conqer
+將複雜問題切小問題。
+
+# Quicksort

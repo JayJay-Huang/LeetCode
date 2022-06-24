@@ -1,0 +1,16 @@
+
+# 一種具有順序性的資料結構:
+LIFO: last in first out
+FILO: first in last out
+
+# push & pop
+push: 資料進入
+pop: 資料出來
+
+# Call Stack: 呼叫堆疊
+呼叫函式時都會使用stack，這稱為 call stack。
+
+## 程式過程:
+主程式呼叫 > fun:分配記憶體，存放這fun的變數
+
+用來存放多fun變數的stacr，稱為 call stack。

@@ -1,0 +1,25 @@
+# Binary Search
+
+# 條件
+被搜尋的清單內容必須經過排序。
+> 若目標在清單內: 回傳位置編號 // index
+> 若目標不在清單內: 回傳null
+
+ps: 簡易搜尋法(逐一刪除)
+Binary Search : 從中間開始搜尋，一次排除一半數目。
+
+當Binary Search有 n 個元素時，
+所需步驟數為: log2 n。(2的幾次方)
+
+ex: log2 8 = 3 (2的3次方)
+8個元素，binary search步驟次數為 4 次。(3+1，最後一次為確認值)
+
+簡易搜尋法 Sequential_Search: O(n): 線性時間
+二次元搜尋法 Binary_Search: O(logn): 對數時間
+
+# Big O notation
+是一評估演算法效益的方法。
+用操作次數來計數。
+
+# factoriakl階層時間 O(n!)
+1x2x3x4x..n
